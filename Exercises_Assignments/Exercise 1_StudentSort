@@ -1,0 +1,24 @@
+## Problem Statement: Sorted Student names##
+
+
+A class contains a static method sortStudents(..) which takes two arrays of same size.
+The First array is a String array containing the names of Students.The second array is an integer array containing the percentage obtained by the students in their exams. 
+
+The method returns a String array with Students name, sorted as per the ascending order of their percentages
+
+Please complete the method to achieve the functionality given above.
+
+
+Write a main method and accept input from console as per the format below
+
+Sample Input:
+
+Rahul:75;Girish:65;John:80;
+
+
+This data has to be passed to the method sortStudents(..) and the returned array should be printed as below
+
+Sample Output:
+
+[Girish, Rahul, John]
+

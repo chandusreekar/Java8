@@ -1,0 +1,70 @@
+Objective
+
+1. Streams
+2. Hands-on Streams
+3. Logical practice question
+4. DataMunging Assignment-2
+
+
+Streams:
+ - sequence of elements/objects  from a data source like collections, arrays.
+ - do operations on the data  eg: sorting, filtering ,agregations 
+
+ 
+ Intermediate Operations
+ - do not close the stream
+ - perform the operations and return a new stream or the same stream
+ - chained/pipelined
+ 
+ filter(Prediacte)
+ map - transform the data in the stream
+ sorting
+ 
+ Terminal Operations
+ - close the stream
+ 
+ forEach
+ reduce=> (2,4,6,7)max,sum, count
+ collect - Collectors
+ toArray
+ matching
+ finding - findAny, findFirst
+ 
+ 
+ How are we going to work with Streams
+ - create a stream from a datasource
+ - apply intermediate operations
+ - apply terminal operations to close the stream
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

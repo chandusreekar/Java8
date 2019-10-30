@@ -1,0 +1,44 @@
+Java 8 Streams
+----------------
+##Create a class Customer with name, age and gender as attributes
+
+###Create a List of Customers and do the following operations using Java 8 streams
+- Display the names of all customers
+- Display the name of customers who are older than 25 and are Male
+- Create a set with the names of all Customers
+- Display the average age of all female customers
+- create a list with names of customers sorted as per age
+
+
+### Stream Collectors
+- From the List of Customers, Create a map with customer 'name' as key and 'age' as value
+- Iterate through the map and display the key and value pair, of customers with age greater than 25
+- From the List of Customers, Create a Map with key as gender and value as List of Customer objects
+- From the List of Customers, Create a Map with key as gender and value as List of Customer Names
+- Create a String as per the below format, with the names of Customers whose age is greater than 25
+    {name1; name2; ...}
+	
+	
+### Special Streams
+- Use IntStream to generate a range of numbers from 20 to 50 inclusive. From the stream, store the square of odd multiples of 3
+  in an LinkedList
+- Generate a infinite stream with multiples of 5 and collect the first 20 multiples in an array.
+
+### Date and Time
+- Accept the investment date in the format <dd/mm/yyyy> for a Bank fixed deposit using Scanner. Print the maturity Date in format <dd-mmm-yyyy>, considering an investment period of 4 years 11 months?
+
+- Given todays date, create a List containing the all the dates of working days for next month?(considering sat and sun as non-working days) 
+
+- Create a class Tablet with properties name and expiry date. Add some tablet objects to a ArrayList. 
+	- Get the names of Tablet in a List, Which are expiring within 3 months from today?
+	- Create a List of Tablet objects, in the ascending order of expiry date?
+
+### Files
+- A text file contains tablet name and expiry date separated by comma in each line. Read all the tablet names and create a 
+  Map with key as Tablet name and value as expiry date. The Map should contain tablets which are already expired?
+
+
+
+
+
+

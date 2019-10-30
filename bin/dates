@@ -1,0 +1,27 @@
+Date Time  API
+
+Date, Calendar, SimpleDateFormat
+
+ - Mutable
+ - inbuild operations on date are not exhaustive
+ - month - 0, year - 1900
+ - 1970 jan-1
+
+
+joda time API
+
+LocalDate - represents date - ISO Date yyyy-MM-dd
+LocalTime - time hh:mm:ss 
+LocalDateTime - Represents Date and Time
+
+Period - range between the dates
+Duration - range between the time
+
+
+ChronoUnit - DAYS,YEARS,HOURS
+
+Temporal Adjusters
+DateTimeFormatter - parse and formates the data and time
+
+
+

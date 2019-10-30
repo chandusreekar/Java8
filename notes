@@ -1,0 +1,52 @@
+Java 8 Features
+
+Interfaces
+Functional Interface
+Lamda Expression
+forEach--Iteratble
+
+
+Interface:
+ default methods
+ static methods
+ 
+ Functional Interface
+   - one abstract method
+   
+ Lamda Expression
+ 
+ - Functions which do not have name
+ - assign to a variable of type Functional Interface
+ - pass functions into other functions
+ - concise and less verbose
+ 
+ Method Referernces
+ 
+ className :: methodName
+ 
+ 1.  sort by productPrice 
+ 2. getProducts  with beginnning letter 'M'
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
